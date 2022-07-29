@@ -1,0 +1,89 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="button"] {
+    padding: 14px 20px;
+    font-size: 18px;
+    font-family: 'Merriweather', serif !important;
+}
+
+#main {
+    background: url(./assets/img/hero-bg-1.png) no-repeat center center;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.logo-header {
+    padding: 150px 50px 0;
+    position: relative;
+    height: 300px;
+}
+
+
+#blah {
+    width: 200px;
+    height: 140px;
+    object-fit: contain;
+}
+
+.cta {
+    font-size: 90px;
+    color: #683C11;
+    position: relative;
+    z-index: 1000;
+}
+
+.img-wrap img {
+    width: 300px;
+}
+
+.text-wrap {
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+
+#right-tab {
+    margin-left: 100px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.reg {
+    font-style: normal !important;
+}
+
+.itl {
+    font-style: italic !important;
+}
+
+.bold {
+    font-weight: bold !important;
+}
