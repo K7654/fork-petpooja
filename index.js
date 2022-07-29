@@ -45,3 +45,13 @@ document.getElementById('bold').addEventListener('click', function () {
     document.getElementById('cta').style.fontStyle = "normal";
     document.getElementById('cta').style.fontWeight = "bold";
 });
+
+document.getElementById('red').addEventListener('click', function () {
+    document.getElementById('cta').style.color = "rgb(255, 75, 75)";
+});
+document.getElementById('brown').addEventListener('click', function () {
+    document.getElementById('cta').style.color = "#683C11";
+});
+document.getElementById('black').addEventListener('click', function () {
+    document.getElementById('cta').style.color = "#121212";
+});

@@ -87,3 +87,24 @@ input[type="button"] {
 .bold {
     font-weight: bold !important;
 }
+
+.color-circle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#red {
+    background: rgb(255, 75, 75);
+}
+
+#brown {
+    background: #683C11;
+}
+
+#black {
+    background: #121212;
+}
